@@ -96,5 +96,5 @@ Después de eso, cada `git push main`:
 * Las publica en GHCR
 * Se conecta a tu servidor
 * Ejecuta `docker compose pull && docker compose up -d`
-  ✅ ¡Despliegue automático completo!
+
 

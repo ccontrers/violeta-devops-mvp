@@ -10,7 +10,7 @@ MVP de DevOps completo:
 ⃣**Repo:** `violeta-devops`
 **Backend:** Spring Boot con **Gradle**
 **Frontend:** React + Vite servido con **Node (vite preview)**
-Para el despliegue, elijo la **opción B** → *Build + Push + Deploy automático vía SSH*, ya que eso completa el ciclo CD (Continuous Deployment) y te da un MVP de DevOps **100% funcional**: cada `push` a `main` genera imágenes y actualiza el staging automáticamente.
+Para el despliegue *Build + Push + Deploy automático vía SSH*,  cada `push` a `main` genera imágenes y actualiza el staging automáticamente.
 
 ---
 
@@ -202,14 +202,10 @@ Cada vez que hagas `git push main`, el pipeline:
 
 ## 🏁 Resultado
 
-Tendrás en **menos de una hora**:
+Tendrás:
 
 * CI/CD completo (build, test, deploy).
 * Todo versionado en GitHub.
 * Despliegue automático sin pipelines externos.
 * Infra reproducible en cualquier entorno vía Docker Compose.
 
----
-
-¿Quieres que te genere un **ZIP descargable** con esta estructura y todos los archivos listos (puedes descomprimirlo y hacer `git init`)?
-Puedo hacerlo en segundos para que empieces a trabajar directamente.
